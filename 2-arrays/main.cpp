@@ -35,11 +35,11 @@ int main(void) {
 
 void fillArray(float* array, int students) {
     for(int i = 0; i < students; i++)
-        cin >> array[i];
+        cin >> *(array + i);
 }
 
 void printArray(float* array, int students) {
     for(int i = 0; i < students; i++)
-        cout << array[i] << "\t";
+        cout << *(array + i) << "\t";
     cout << endl;
 }
