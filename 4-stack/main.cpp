@@ -64,7 +64,7 @@ int main(void) {
     return 0;
 }
 
-// Agregar elementos a una pila
+// Agregar elementos a una pila -> O(1)
 // 1. Retornar la pila modificada                   - Valor de retorno
 // 2. No retornar nada y modificar en la funcion    - Punteros (doble)
 void push(node** stk, int data) {
